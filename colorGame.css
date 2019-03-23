@@ -1,0 +1,77 @@
+body{
+	margin : 0;
+}
+.square{
+	width : 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	margin : 1.66%;
+	float : left;
+	border-radius: 30%;
+	transition: background 1s;
+	-webkit-transition:background 1s;
+	-moz-transition:background 1s;
+}
+#container{
+	width : 600px;
+	margin : 20px auto;
+}
+#stripe{
+	background :lightblue;
+	height : 30px;
+	text-align: center;
+	color : "#232323";
+}
+.selected{
+	background : blue;
+}
+#display{
+	font-size: 200%;
+}
+#textDisplay{
+	display: inline-block; /*used to set height and width to html elements*/
+	width: 20%;
+	font-family:"courier";
+	font-weight: 900;
+	font-size: large;
+	letter-spacing: 2px;
+	color : darkblue;
+}
+h1{
+	font-family: "Bookman";
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	background : steelblue;
+	margin : 0;
+	color : white;
+	font-weight: normal;
+	line-height: 1.1;
+	padding : 20px 0;
+}
+button{
+	text-transform: uppercase;
+	background : none;
+	border : none;
+	color : steelblue;
+	height: 100%;
+	font-weight: 700;
+	font-size: inherit;
+	letter-spacing: 1px;
+	transition: all 1s; /*whenever any property changes in the button*/
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
+	outline: none;
+}
+button:hover{
+	color : white;
+	background : steelblue;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
